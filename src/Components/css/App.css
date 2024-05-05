@@ -1,0 +1,131 @@
+.full-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+  color: #333;
+  padding: 20px;
+  margin-left: 250px;
+  font-size: 20px;
+}
+
+.heading-2 {
+  background-color: rgb(255, 245, 206);
+  display: inline;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  color: #007bff;
+  border: 1px solid#007bff;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 85%;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header,
+.table-row td {
+  padding: 8px;
+  text-align: left;
+  border-top: 2px solid #d2d2d2;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-header {
+  font-weight: bold;
+}
+
+.status-badge,
+.in-progress {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+
+.todo {
+  color: #007bff;
+  border: 1px solid#007bff;
+}
+
+.complete {
+  color: #00c72e;
+  border: 1px solid #00c72e;
+}
+
+.action-button {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #00c72e;
+}
+
+.cancel-button {
+  background-color: #ff2424;
+}
+
+.edit-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: inherit;
+  font-family: inherit;
+  width: 100%;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #ff2424;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.readme-heading {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .table-header,
+  .table-row td {
+    padding: 5px;
+  }
+}
